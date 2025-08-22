@@ -21,7 +21,7 @@ let isLoggedIn = false // boolean datatype
 // symbol = for uniqueness . Mostly used in recact.js
 
 
-// object =  a non-primitive datatype.
+// object is a non-primitive datatype.
 
 
 //"typeof" data type shows the types
@@ -29,4 +29,5 @@ console.log(typeof "Ananya"); //  type is a string
 console.log(typeof age); // type is a number
 
 console.log(typeof null); //type is object in js
+
 console.log(typeof undefined); //type is undefined in js
