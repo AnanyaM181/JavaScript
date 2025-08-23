@@ -1,6 +1,6 @@
 // How to declare an array
 
-const myArr = [0, 1 , 2 , 3 , 4]
+const myArr = [0, 1 , 2 , 3 , 4 , 5]
 // It can be a mixture of all this element like number ,boolean, string, object and array also
 // Array is resizeable add we can add data again
 
@@ -80,4 +80,5 @@ the elements that are mentioned in the parameter. */
 
    In slice it doesnot manipulate the original array value returns the original value
    But in splice it does manipulate the original array value and only returns the value which are not included 
+
    in range. */
