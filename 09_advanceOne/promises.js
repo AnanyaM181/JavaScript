@@ -44,7 +44,9 @@ const promiseOne = new Promise( (resolve,reject) => {
     // Yes the execution is completed
 
     // resolve as a parameter and resolve() as a method has directly connected to the then()
-    // The then() is the consuming part of the promise 
+
+    // The then() is the consuming part of the promise
+
     // The then() will be executed once the resolve() method is called in the callback function of the promise production part.
 
 
