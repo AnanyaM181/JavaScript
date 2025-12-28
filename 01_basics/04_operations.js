@@ -2,6 +2,7 @@ let value = 14
 let negValue = -value
 console.log(negValue);
 
+
 console.log(2+2); // 4
 console.log(2-2); // 0
 console.log(2*3); // 6
