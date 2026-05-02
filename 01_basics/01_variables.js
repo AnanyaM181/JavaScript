@@ -20,7 +20,7 @@ let accountState;
 // accountId = 2 // not allowed if already one account is existing because we used (const) keyword there
 
 accountEmail = "an@ananya.com"
-accountPassword = "76874479"
+accountPassword = "768744797"
 accountCity = "Bengaluru"
 
 console.log(accountId);
