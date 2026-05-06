@@ -11,7 +11,6 @@ It has not been completely removed, but it is still used in some old code. */
 accountCity = "Bhubaneswarr" 
 // In JavaScript, we can write variables without using var or let, but it is not a good practice.
 
-
 let accountState; 
 /* If we do not know the value of a variable and only declare it, then JavaScript considers its value as undefined.
 */
