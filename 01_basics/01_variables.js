@@ -23,7 +23,6 @@ accountEmail = "an@ananya.com"
 accountPassword = "768744797"
 accountCity = "Bengaluru"
 
-
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity]);
 
