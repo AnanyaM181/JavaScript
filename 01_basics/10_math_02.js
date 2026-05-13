@@ -12,7 +12,6 @@ console.log(Math.abs(null));  // 0 (null is converted to 0)
 console.log(Math.abs('abc')); // NaN (cannot convert string to number)
 
 
-
 /* The Math.ceil() static method always rounds up and returns the smallest integer greater 
 than or equal to a given number. */
 
