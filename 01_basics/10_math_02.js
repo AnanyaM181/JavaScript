@@ -21,7 +21,6 @@ console.log(Math.ceil(7.004)); // 8
 console.log(Math.ceil(-7.004)); // -7
 
 
-
 // Math.floor() is a method that rounds a number down to the nearest integer. 
 
 console.log(Math.floor(4.9)); // 4
