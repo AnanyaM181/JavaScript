@@ -3,6 +3,7 @@
 // }
 // console.log(calculateCartPrice(200, 400, 500)); // 200  Here it will only print 200
 
+
 function calculateCartPrice(...num1){
     return num1
 } // Here it is rest operator
