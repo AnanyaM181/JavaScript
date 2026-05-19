@@ -15,7 +15,8 @@ let accountState;
 /* If we do not know the value of a variable and only declare it, then JavaScript considers its value as undefined.
 */
 //In JavaScript, semicolons are not compulsory; we can omit them.
-// accountId = 2 // not allowed if already one account is existing because we used (const) keyword there
+// accountId = 2 // not allowed if already one account is existing because we used (const) keyword there means that
+// is constant with the same name variable we can not save any other value
 
 accountEmail = "an@ananya.com"
 accountPassword = "768744797"
