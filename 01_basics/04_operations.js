@@ -31,7 +31,6 @@ console.log(+true); // 1 [In boolean true is 1]
 console.log(+""); // 0 ["" is 0]
 
 
-
 let gameCounter = 100
 ++gameCounter 
 console.log(gameCounter); //101 if it was gameCounter++ also the ans is 101
