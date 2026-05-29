@@ -1,7 +1,7 @@
 const score = 400
 console.log(score);
 
-const balance = new Number(100)
+const balance = new Number(1000)
 console.log(balance);
 
 /* There can be some prototype methods which can be immplememnted with the number like 
