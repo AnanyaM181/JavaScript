@@ -32,7 +32,7 @@ console.log(secondNumber.toPrecision(4)); //4126
 
 
 
- 
+
 //************************ MATH **************************
 
 // Math is a object in javascript where there is a lot of values and methods are present.
