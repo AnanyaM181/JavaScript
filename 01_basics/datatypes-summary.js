@@ -8,7 +8,7 @@
 // Javascript is a 
 
 // Number type
-const score =100
+const score =1000
 const scoreValue = 100.3
 
 const isLoggedIn = false // Boolean
