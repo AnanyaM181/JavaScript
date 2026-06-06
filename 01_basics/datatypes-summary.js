@@ -9,7 +9,7 @@
 
 // Number type
 const score =1000
-const scoreValue = 100.3
+const scoreValue = 100.34
 
 const isLoggedIn = false // Boolean
 const outsideTemp = null // null is 0
