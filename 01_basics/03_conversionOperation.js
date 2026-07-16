@@ -15,11 +15,11 @@ console.log(typeof secScore);
 let valueInNumber = Number(secScore)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
-//Type is a number
+//Type will converted to a number
 
 
 
-let thirdScore = "43abc" //In js its type will change into a number
+let thirdScore = "43abc" //In js its type is number but value is NAN so it is confusing
 console.log(typeof thirdScore);
 
 let secValueInNumber = Number(thirdScore)
@@ -72,6 +72,20 @@ console.log(booleanLoggedIn)
 // "" => 
 // "Ananya" => true
 
+// Boolean("")        // false (empty string)
+// Boolean("Ananya")  // true (non-empty string)
+
+// Boolean(0)         // false
+// Boolean(1)         // true
+
+// Boolean(null)      // false
+// Boolean(undefined) // false
+
+// Boolean(NaN)       // false
+
+// Boolean([])        // true
+// Boolean({})        // true
+
 
 
 //STRING
@@ -81,4 +95,5 @@ let someNumber = 68
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
-
+//68
+//string
