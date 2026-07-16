@@ -1,7 +1,7 @@
 const accountId = 771831 // There is only one way to write the constant keyword, and that is by using const
 
 //For variables we use const and var
-let accountEmail = "ananya@google.com" //let is recommended becoz the block problem is solved in this
+let accountEmail = "ananya@google.com" //let is recommended becoz the block scope problem is solved in this
 var accountPassword = "128745"
 /* Prefer not to use var because of issues with block scope ({}) and function scope.
 Example: If a programmer declared accountPassword and later someone else in the same file
