@@ -1,5 +1,6 @@
 let value = 14
-let negValue = -value
+let negValue = -value // value wll ne negative
+
 console.log(negValue);
 console.log(2+2); // 4
 console.log(2-2); // 0
