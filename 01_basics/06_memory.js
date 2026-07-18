@@ -7,7 +7,6 @@
 // We get the reference of the original value whatever we want to change we have to change from its original 
 // value.
 
-
 let myYoutubeName = "ananyadotcom"
 
 let anotherName = myYoutubeName
