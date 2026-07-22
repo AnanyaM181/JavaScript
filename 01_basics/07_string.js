@@ -36,7 +36,6 @@ const newStringOne = "   ananya    "
 console.log(newStringOne);
 console.log(newStringOne.trim()); // After using trim it will remove the starting and ending spaces
 
-
 const url = "https://ananya.com/ananya%20mohapatra"
 
 console.log(url.replace('%20', '-')) // https://ananya.com/ananya-mohapatra ,,,, We replace %20 into -
