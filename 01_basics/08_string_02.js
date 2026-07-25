@@ -1,4 +1,4 @@
-//     METHODS USED IN STRINGS
+// METHODS USED IN STRINGS
 
 
 let a = ("Hello World")
@@ -13,7 +13,7 @@ console.log(a.startsWith("Hello")); // True
 
 console.log(a.endsWith("World")); // True
 
-console.log(a.endsWith("Hello")); // False becoz it ends with world
+console.log(a.endsWith("Hello")); // False becoz it ends with World
 
 console.log(a.endsWith()); // false
 
@@ -23,7 +23,7 @@ console.log(a.toUpperCase());
 console.log(a.toLowerCase());
 // The toLowerCase() method converts all characters in the string to lowercase
 
-//***************/ indexOf()  ********************
+//*************** indexOf()  ********************
 
 let b = "Hello world, welcome to the universe.";
 console.log(b.indexOf("the")); //24 shows position
@@ -31,7 +31,7 @@ console.log(b.indexOf(",")); //11
 console.log(b.indexOf("w" )); //6 first appearance
 
 
-//******************** */ lastIndexOf() shows from ends to start *******************
+//********************  lastIndexOf() shows from ends to start *******************
 
 let c = "Hello planet earth, you are a great planet.";
 console.log(c.lastIndexOf("planet")); // 36
@@ -59,7 +59,7 @@ console.log(f.replace("green" , "purple")); //Mr Blue has a purple house and a g
 // The 'g' flag at the end of the pattern tells JavaScript to perform a global search
 // This means all occurrences of "blue" will be replaced, not just the first one
 console.log(f.replace(/green/g , "purple"));
-     //Mr Blue has a purple house and a purple car and a purple garden.
+//Mr Blue has a purple house and a purple car and a purple garden.
 
 
 
@@ -123,4 +123,3 @@ console.log(n.substring(0, 5)); // Hello
 
 console.log(n.substring(7)); // world!
 // Extracting a substring from index 7 to the end of the string
-
