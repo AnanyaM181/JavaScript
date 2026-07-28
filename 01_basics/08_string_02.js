@@ -114,7 +114,6 @@ console.log(m.split(""));  // [ 'A', 'n', 'a', 'n', 'y', 'a' ]
 // Is split into an array of individual characters
 
 
-
 //********************* subString ********************
 
 let n = "Hello, world!"
