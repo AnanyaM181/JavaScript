@@ -35,8 +35,6 @@ addTwoNum (100 , null)  //  100   Here the values are 100 and null so these are 
 // But when we call a function the values we passes through it is known as arguments. Read above
 
 
-
-
  function addTwoNumbers (number1 , number2) {
      console.log(number1 + number2);
     
