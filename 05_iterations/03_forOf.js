@@ -100,4 +100,4 @@ for (const [key, value] of myObject) {
 
 // TypeError: myObject is not iterable
 
-// Not for object
+// Not for object 
