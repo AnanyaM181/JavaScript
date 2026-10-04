@@ -28,6 +28,7 @@ console.log(newString); // nany
 
 const anotherString = gameName.slice(-5, 3)
 /* In slice we can give -ve numbers means it will start from reverse
+
 */
 console.log(anotherString);
 
