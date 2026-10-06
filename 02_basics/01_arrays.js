@@ -27,6 +27,9 @@ console.log(myArr2); // [ 1, 18, 30, 77, 81 ]
 myArr2.unshift(14) 
 console.log(myArr2); // [ 14, 1, 18, 30, 77, 81 ]
 // It adds the value as the first element which involves the shifting positions of every existing element.
+// The unshift() method returns the new array length
+// It is a very costly operation as it involves shifting of all the elements in the array.
+// It is time consuming and not recommended to use in large arrays.
 
 myArr2.shift() 
 console.log(myArr2); // [ 1, 18, 30, 77, 81 ]
@@ -79,6 +82,5 @@ the elements that are mentioned in the parameter. */
    But in splice last range is included.
 
    In slice it doesnot manipulate the original array value returns the original value
-   But in splice it does manipulate the original array value and only returns the value which are not included 
-
-   in range. */
+   But in splice it does manipulate the original array value and only returns the value which are not included in range. 
+*/
