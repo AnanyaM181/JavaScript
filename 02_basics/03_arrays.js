@@ -42,7 +42,8 @@ the elements that are mentioned in the parameter. */
 
    In slice it doesnot manipulate the original array value returns the original value
    But in splice it does manipulate the original array value and only returns the value which are not included 
-   in range. */
+   in range. 
+*/
 
 
 
@@ -88,8 +89,12 @@ console.log(fruits.includes("banana", 2)); // false
 
 
 // flat
-/* The array.flat() method in JavaScript is used to flatten an array, meaning it reduces 
-the nesting of arrays within an array to a single level or to a specified depth. */
+/* 
+The array.flat() method in JavaScript is used to flatten an array, meaning it reduces 
+the nesting of arrays within an array to a single level or to a specified depth. 
+
+Flattening an array means converting a multi-dimensional array into a one-dimensional array.
+*/
 const array04 = [1, 2, [3, 4], [5, 6], 7];
 console.log(array04.flat()); // [1,2,3,4,5,6,7]
 
@@ -234,4 +239,3 @@ It returns a Boolean value. */
 const newNumber = [2 , 4 , 6 , 8 , 10, 12]
 const ansNum = (element) => element % 2 === 0; 
 console.log(newNumber.every(ansNum)); // true
-
