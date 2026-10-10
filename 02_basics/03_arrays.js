@@ -239,3 +239,5 @@ It returns a Boolean value. */
 const newNumber = [2 , 4 , 6 , 8 , 10, 12]
 const ansNum = (element) => element % 2 === 0; 
 console.log(newNumber.every(ansNum)); // true
+
+// This are the notes of array methods in javascript. I have explained all the methods with examples.
