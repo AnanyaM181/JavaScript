@@ -11,5 +11,3 @@ const otherHeros = ["Wolverine", "Deadpool"]
 
 const allHeros2 = marvelHeros2.concat(dcHeros2, otherHeros);
 console.log(allHeros2);
-
-
